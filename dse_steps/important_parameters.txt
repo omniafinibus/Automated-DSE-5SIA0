@@ -1,0 +1,122 @@
+sim_seconds                                  0.001000                       # Number of seconds simulated
+sim_insts                                    54039835                       # Number of instructions simulated
+sim_ops                                      62198241                       # Number of ops (including micro ops) simulated
+
+system.mem_ctrls_0.refreshEnergy              3095040                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrls_0.selfRefreshEnergy     1549385.100000                       # Energy for self refresh per rank (pJ)
+system.mem_ctrls_0.actEnergy                 20006280                       # Energy for activate commands per rank (pJ)
+system.mem_ctrls_0.actBackEnergy         19934989.500000                       # Energy for active background per rank (pJ)
+system.mem_ctrls_0.actPowerDownEnergy    604139.250000                       # Energy for active power-down per rank (pJ)
+system.mem_ctrls_0.preEnergy                 10541664                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrls_0.preBackEnergy         182702.400000                       # Energy for precharge background per rank (pJ)
+system.mem_ctrls_0.prePowerDownEnergy            2340                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrls_0.readEnergy                35284704                       # Energy for read commands per rank (pJ)
+system.mem_ctrls_0.writeEnergy               24582168                       # Energy for write commands per rank (pJ)
+
+system.mem_ctrls_0.totalEnergy           141319086.825000                       # Total energy per rank (pJ)
+
+system.mem_ctrls.readRowHits                    61526                       # Number of row buffer hits during reads
+system.mem_ctrls.writeRowHits                     877                       # Number of row buffer hits during writes
+system.mem_ctrls.readRowHitRate                 89.89                       # Row buffer hit rate for reads
+system.mem_ctrls.writeRowHitRate                87.88                       # Row buffer hit rate for writes
+system.mem_ctrls.pageHitRate                    89.86                       # Row buffer hit rate, read and write combined
+
+system.cpu_cluster.cpus.dcache.overall_hits::total       186894                       # number of overall hits
+system.cpu_cluster.cpus.dcache.overall_misses::total       111330                       # number of overall misses
+system.cpu_cluster.cpus.dcache.overall_miss_rate::total     0.373310                       # miss rate for overall accesses
+system.cpu_cluster.cpus.dcache.overall_miss_latency::total   6819459952                       # number of overall miss cycles
+system.cpu_cluster.cpus.dcache.overall_avg_miss_latency::total 61254.468266                       # average overall miss latency
+
+system.cpu_cluster.cpus.icache.overall_hits::total       182728                       # number of overall hits
+system.cpu_cluster.cpus.icache.overall_misses::total          630                       # number of overall misses
+system.cpu_cluster.cpus.icache.overall_miss_rate::total     0.003436                       # miss rate for overall accesses
+system.cpu_cluster.cpus.icache.overall_miss_latency::total     49211240                       # number of overall miss cycles
+system.cpu_cluster.cpus.icache.overall_avg_miss_latency::total 78113.079365                       # average overall miss latency
+
+system.cpu_cluster.l2.overall_hits::.cpu_cluster.cpus.inst           35                       # number of overall hits
+system.cpu_cluster.l2.overall_hits::.cpu_cluster.cpus.data        22621                       # number of overall hits
+system.cpu_cluster.l2.overall_hits::total        22656                       # number of overall hits
+system.cpu_cluster.l2.overall_misses::.cpu_cluster.cpus.inst          470                       # number of overall misses
+system.cpu_cluster.l2.overall_misses::.cpu_cluster.cpus.data        11288                       # number of overall misses
+system.cpu_cluster.l2.overall_misses::total        11758                       # number of overall misses
+system.cpu_cluster.l2.overall_miss_rate::total     0.341663                       # miss rate for overall accesses
+system.cpu_cluster.l2.overall_avg_miss_latency::.cpu_cluster.cpus.inst 86228.723404                       # average overall miss latency
+system.cpu_cluster.l2.overall_avg_miss_latency::.cpu_cluster.cpus.data 114268.138111                       # average overall miss latency
+system.cpu_cluster.l2.overall_avg_miss_latency::total 113147.324630                       # average overall miss latency
+
+system.cpu_cluster.cpus.power_model.static_power     0.000182                       # Static power for this power state
+system.cpu_cluster.cpus.dcache.power_model.static_power     0.012441                       # Static power for this power state
+system.cpu_cluster.cpus.icache.power_model.static_power     0.010163                       # Static power for this power state
+system.cpu_cluster.cpus.dtb_walker_cache.power_model.static_power     0.000002                       # Static power for this power state
+system.cpu_cluster.cpus.itb_walker_cache.power_model.static_power     0.000002                       # Static power for this power state
+system.cpu_cluster.l2.power_model.static_power     0.683743                       # Static power for this power state
+
+system.cpu_cluster.cpus.power_model.dynamic_power     0.000092                       # Dynamic power for this power state
+system.cpu_cluster.cpus.dcache.power_model.dynamic_power     0.006753                       # Dynamic power for this power state
+system.cpu_cluster.cpus.icache.power_model.dynamic_power     0.004152                       # Dynamic power for this power state
+system.cpu_cluster.cpus.dtb_walker_cache.power_model.dynamic_power            0                       # Dynamic power for this power state
+system.cpu_cluster.cpus.itb_walker_cache.power_model.dynamic_power            0                       # Dynamic power for this power state
+system.cpu_cluster.l2.power_model.dynamic_power     0.019893                       # Dynamic power for this power state
+
+# Measurements:
+time vs power
+sim_seconds                                  0.001000                       # Number of seconds simulated
+system.mem_ctrls_0.totalEnergy           141319086.825000                       # Total energy per rank (pJ)
+
+L1I hits vs misses
+system.cpu_cluster.cpus.icache.overall_hits::total       182728                       # number of overall hits
+system.cpu_cluster.cpus.icache.overall_misses::total          630                       # number of overall misses
+
+L1D hits vs misses
+system.cpu_cluster.cpus.dcache.overall_hits::total       186894                       # number of overall hits
+system.cpu_cluster.cpus.dcache.overall_misses::total       111330                       # number of overall misses
+
+L2 hits vs misses
+system.cpu_cluster.l2.overall_hits::total        22656                       # number of overall hits
+system.cpu_cluster.l2.overall_misses::total        11758                       # number of overall misses
+
+L1I hits vs misses
+system.cpu_cluster.cpus.icache.overall_miss_rate::total     0.003436                       # miss rate for overall accesses
+
+L1D hits vs misses
+system.cpu_cluster.cpus.dcache.overall_miss_rate::total     0.373310                       # miss rate for overall accesses
+
+L2 hits vs misses
+system.cpu_cluster.l2.overall_miss_rate::total     0.341663                       # miss rate for overall accesses
+
+Energy breakdowns
+system.mem_ctrls_0.averagePower                                    141.319087 # Core power per rank (mW)
+
+system.cpu_cluster.cpus.dcache.power_model.static_power            0.012441   # Static power for this power state
+system.cpu_cluster.cpus.dcache.power_model.dynamic_power           0.006753   # Dynamic power for this power state
+system.cpu_cluster.cpus.dtb_walker_cache.power_model.static_power  0.000002   # Static power for this power state
+system.cpu_cluster.cpus.dtb_walker_cache.power_model.dynamic_power 0          # Dynamic power for this power state
+system.cpu_cluster.cpus.icache.power_model.static_power            0.010163   # Static power for this power state
+system.cpu_cluster.cpus.icache.power_model.dynamic_power           0.004152   # Dynamic power for this power state
+system.cpu_cluster.cpus.itb_walker_cache.power_model.static_power  0.000002   # Static power for this power state
+system.cpu_cluster.cpus.itb_walker_cache.power_model.dynamic_power 0          # Dynamic power for this power state
+system.cpu_cluster.cpus.power_model.static_power                   0.000182   # Static power for this power state
+system.cpu_cluster.cpus.power_model.dynamic_power                  0.000092   # Dynamic power for this power state
+system.cpu_cluster.l2.power_model.static_power                     0.683743   # Static power for this power state
+system.cpu_cluster.l2.power_model.dynamic_power                    0.019893   # Dynamic power for this power state
+
+# Tests
+    # Frequencies
+
+    # L1I
+    # L1D
+        # Focus on the effects of L2 being enabled without prefetch
+        # Focus on the effects of L2 being enabled with prefetch 
+        # Focus on the effects of L2 being disabled
+            #Performance mode of lop
+            #Performance mode of hp
+                # Cache sizes
+                # Associate level size            
+
+    # L2
+        # With L2 prefetch enabled
+        # With L2 prefetch disabled
+            #Performance mode of lop
+            #Performance mode of hp
+                # Cache sizes
+                # Associate level size
